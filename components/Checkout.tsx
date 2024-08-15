@@ -71,7 +71,7 @@ const Checkout = () => {
                     </div>
                 </div>
 
-                <div className='w-[25%]'>
+                <div className='w-[27%]'>
                     <OrderSummary />
                 </div>
             </div>

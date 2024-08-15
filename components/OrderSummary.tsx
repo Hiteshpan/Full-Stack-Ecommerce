@@ -47,14 +47,14 @@ const OrderSummary = () => {
     }
 
     return (
-        <div className='border border-gray-300 p-4 mt-5 h-fit rounded-lg'>
+        <div className='border border-gray-300 p-3 mt-5 h-fit rounded-lg'>
             <div>
                 <div className='flex items-center justify-center'>
                     <div className='w-[70%] text-center'>
                         <h1 className='font-bold text-xl pb-3 mb-5 border-b border-gray-300'>Order Summary</h1>
                     </div>
                 </div>
-                <div className='text-sm'>
+                <div className='text-sm px-2'>
                     <div className='flex items-center justify-between'>
                         <p>items:</p>
                         <p>${totalPrice}</p>
@@ -69,7 +69,7 @@ const OrderSummary = () => {
                     </div>
                     <div className='flex items-center justify-between'>
                         <p>Promotion Applied:</p>
-                        <p className='text-sm'><span className='text-[#B12704] font-semibold text-xs'>NOT NOW</span> $ <span className='line-through text-gray-600'>30.00</span></p>
+                        <p className='text-sm'><span className='text-[#B12704] font-semibold text-xs'>NOT NOW</span> $<span className='line-through text-gray-600'>30.00</span></p>
                     </div>
                     <div className='flex justify-between text-xl font-semibold text-[#B12704] py-2 border-t border-b border-gray-300 my-1'>
                         <h1>Order Total: </h1>
