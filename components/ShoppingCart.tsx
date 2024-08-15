@@ -18,7 +18,7 @@ const ShoppingCart = ({ cart, totalPrice }: { cart: any, totalPrice: number }) =
             {
                 cart.map((product: any) => {
                     return (
-                        <div className='flex justify-between py-5 px-2 border-b border-gray-300'>
+                        <div key={product.id} className='flex justify-between py-5 px-2 border-b border-gray-300'>
                             <div className='flex'>
                                 <Link href={`/product/${product.id}`}>
                                     <div className='bg-gray-100 p-3 rounded-md'>

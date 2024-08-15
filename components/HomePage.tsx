@@ -31,7 +31,7 @@ const HomePage = () => {
         {
           mensProduct.map((product: any) => {
             return (
-              <div>
+              <div key={product.id}>
                 <CategoryWiseProduct product={product} />
               </div>
             )
@@ -41,7 +41,7 @@ const HomePage = () => {
         {
           womensProduct.map((product: any) => {
             return (
-              <div>
+              <div key={product.id}>
                 <CategoryWiseProduct product={product} />
               </div>
             )
@@ -51,7 +51,7 @@ const HomePage = () => {
         {
           jewelryProduct.map((product: any) => {
             return (
-              <div>
+              <div key={product.id}>
                 <CategoryWiseProduct product={product} />
               </div>
             )
@@ -61,7 +61,7 @@ const HomePage = () => {
         {
           electronicsProduct.map((product: any) => {
             return (
-              <div>
+              <div key={product.id}>
                 <CategoryWiseProduct product={product} />
               </div>
             )
