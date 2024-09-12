@@ -8,14 +8,14 @@ const SearchResult = ({ filterData }: { filterData: any }) => {
     }
 
     return (
-        <div className='w-[80%] h-fit pb-10 mx-auto'>
+        <div className='w-[90%] md:w-[80%] h-fit pb-10 mx-auto'>
             <div className='mt-10'>
                 <div>
                     <h1 className='font-bold text-2xl'>Results {filterData.length}</h1>
                     <p className='text-[#666159]'>Price and other details may vary based on product size and colour.</p>
                 </div>
 
-                <div className='grid grid-cols-4 gap-2 mt-3'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-3'>
                     {
                         filterData?.map((product: any) => {
                             return (
@@ -27,7 +27,7 @@ const SearchResult = ({ filterData }: { filterData: any }) => {
                     }
                 </div>
             </div>
-            <div className=' w-full h-[20%] py-10 bg-white'></div>
+            <div className='w-full h-[20%] py-10 bg-white'></div>
         </div>
     )
 }

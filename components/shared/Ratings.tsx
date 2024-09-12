@@ -7,10 +7,22 @@ const Ratings = ({ ratings }: { ratings: any }) => {
     return (
         <div className='flex items-center'>
             {
-                Array(4).fill(1).map((dummyItem, idx) => <Image key={idx} src={rating} alt={'rating'} width={20} height={20} />)
+                Array(4).fill(1).map((dummyItem, idx) => (
+                    <Image
+                        key={idx}
+                        src={rating}
+                        alt={'rating'}
+                        width={16}
+                        height={16}
+                        className='sm:w-[20px] sm:h-[20px]'
+                    />
+                ))
             }
-            <h1 className='text-[#007185] text-sm ml-2 font-medium'>{ratings.count} ratings</h1>
-        </div >
+            <h1 className='text-xs sm:text-sm text-[#007185] ml-1 sm:ml-2 font-medium'>
+                {ratings.count} ratings
+            </h1>
+        </div>
+
     )
 }
 

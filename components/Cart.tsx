@@ -12,11 +12,16 @@ const Cart = () => {
     cart.forEach((item: any) => {
         totalPrice += item.price * item.quantity;
     });
+
+    // Round to 3 decimal points
+    totalPrice = parseFloat(totalPrice.toFixed(3));
     return (
-        <div className='w-[85%] mx-auto mt-10'>
-            <div className='flex w-full justify-between'>
-                <ShoppingCart cart={cart} totalPrice={totalPrice}/>
-                <ProceedToBuy length={cart.length} totalPrice={totalPrice} />
+        <div className='w-full md:w-[85%] mx-auto mt-10'>
+            <div className='flex flex-col md:flex-col lg:flex-row w-full justify-between gap-6'>
+                <ShoppingCart cart={cart} totalPrice={totalPrice} />
+                <div className='flex md:justify-center'>
+                    <ProceedToBuy length={cart.length} totalPrice={totalPrice} />
+                </div>
             </div>
         </div>
     )

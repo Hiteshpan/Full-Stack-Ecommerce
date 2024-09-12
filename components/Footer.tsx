@@ -5,8 +5,8 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer className="bg-[#232f3e] text-white text-sm">
-            <div className="max-w-screen-xl mx-auto py-10">
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 leading-loose">
+            <div className="max-w-screen-xl mx-auto py-10 px-4">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 leading-loose">
                     <div>
                         <h3 className="font-bold mb-4 text-base">Get to Know Us</h3>
                         <ul>
@@ -66,6 +66,7 @@ const Footer: React.FC = () => {
                 <p className="text-gray-400 text-xs">© 2024, Amazon.com, Inc. or its affiliates</p>
             </div>
         </footer>
+
     );
 };
 
