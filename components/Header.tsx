@@ -73,7 +73,7 @@ const Header = () => {
                         />
                         <div
                             onClick={searchHandler}
-                            className='bg-[#FEBD69] text-black rounded-e-md absolute top-0 right-0 px-[10px] py-[5.1px] hover:bg-[#F3A847] cursor-pointer'>
+                            className='bg-[#FEBD69] text-black rounded-e-md absolute top-0 right-6 lg:right-11 md:right-10 px-[10px] py-[5.1px] hover:bg-[#F3A847] cursor-pointer'>
                             <AiOutlineSearch className='text-[#333333]' size={"30px"} />
                         </div>
                     </div>
