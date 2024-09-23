@@ -9,6 +9,10 @@ Developed a full-stack web application that allows users to search for products 
 |-----------------------------------------|-----------------------------------------|
 | ![login](https://github.com/user-attachments/assets/bba17d24-d39f-45af-813b-cd35427c3a40) | ![register](https://github.com/user-attachments/assets/652adbd0-3161-4860-9ce2-8421db1af3f1) |
 
+|  Login                              | Register                                |
+|-----------------------------------------|-----------------------------------------|
+| ![login](https://github.com/user-attachments/assets/bba17d24-d39f-45af-813b-cd35427c3a40) | ![register](https://github.com/user-attachments/assets/652adbd0-3161-4860-9ce2-8421db1af3f1) |
+
 | Admin                                | Employee                                 |
 |-----------------------------------------|-----------------------------------------|
 | ![admin_home](https://github.com/user-attachments/assets/9b0dd998-9705-4246-9503-6fd96778c280) | ![user_home](https://github.com/user-attachments/assets/28da22b4-70d3-446a-9084-ae3c29acef68) |
