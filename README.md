@@ -2,16 +2,12 @@
 
 # E-Commerce Website (Amazon)
 
-Lyriks is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently.
-#### Web Link: https://lyriks-0vml.onrender.com/
-| Admin Credentials | Employee Credentials |
-|-----------------------------------------|-----------------------------------------|
-| Email: hiteshadmin@gmail.com |  Email: hiteshuser@gmail.com |
-| Password- admin@123 | Password- user@123 |
+Developed a full-stack web application that allows users to search for products they want and buy products. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with Next JS that provides users with a seamless experience across all devices. Using self setuped supabase to manage all products data. Implemented a checkout page to pay and buy the product as user wants using Stripe-Gateway.
+#### Web Link: https://full-stack-ecommerce-peach.vercel.app/
   
-|  Login                              |                                 |
+|  Login                              |                                 
 |-----------------------------------------|-----------------------------------------|
-| ![admin_login](https://github.com/user-attachments/assets/4d371fa2-3b3e-462e-8d16-6111f170e1f8) | ![user_login](https://github.com/user-attachments/assets/16367a19-eb12-4610-a950-9cfd67dede68) |
+| ![admin_login](https://github.com/user-attachments/assets/4d371fa2-3b3e-462e-8d16-6111f170e1f8) | 
 
 | Admin                                | Employee                                 |
 |-----------------------------------------|-----------------------------------------|
