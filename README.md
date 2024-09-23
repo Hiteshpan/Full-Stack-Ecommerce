@@ -5,9 +5,9 @@
 Developed a full-stack web application that allows users to search for products they want and buy products. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with Next JS that provides users with a seamless experience across all devices. Using self setuped supabase to manage all products data. Implemented a checkout page to pay and buy the product as user wants using Stripe-Gateway.
 #### Web Link: https://full-stack-ecommerce-peach.vercel.app/
   
-|  Login                              |                                 |
+|  Login                              | Register                                |
 |-----------------------------------------|-----------------------------------------|
-| ![admin_login](https://github.com/user-attachments/assets/4d371fa2-3b3e-462e-8d16-6111f170e1f8) | 
+| ![login](https://github.com/user-attachments/assets/bba17d24-d39f-45af-813b-cd35427c3a40) | ![register](https://github.com/user-attachments/assets/652adbd0-3161-4860-9ce2-8421db1af3f1) |
 
 | Admin                                | Employee                                 |
 |-----------------------------------------|-----------------------------------------|
@@ -28,79 +28,23 @@ Developed a full-stack web application that allows users to search for products 
 
 - User Authentication:
 
-  - Admin Login: Admins can add and remove the album and song of this application using their unique username and password to manage overall data.
+  - User can log in with their credentials to this application using Google Auth and Jwt Auth to make safe checkouts for payments.
 
-  - User Login: User can log in with their credentials to listen newly add and existing songs or to access their playlist.
 
-- Songs Management:
+- Data Management:
 
-  - Admin Dashboard: The admin has the ability to add albums and songs, remove songs, and view a list of all added songs.
-  - User Playlist Update: Users can update their playlist only.
+  - Data is managed all over the application by using Supabase technology to store products and user information across the application.
 
 - User-Friendly:
-  - Admin and User both get the User-Frindly song player to manage the play/pause of the song and the prefered volume level of the song according to the user wants.
-  - Player also have an mute functionality if user wants he/she can mute the current song.
+  - User get the User-Frindly interface which enhances the user experience.
+  - User can buy or search products they want. 
 - Easy-Routing:
-  - Easily rounting user-frindly buttons which is used to navigate all over the application, also a unique feature while playing songs user can navigate to different pages witgout disturbing in song playing.
+  - Easily rounting user-frindly buttons which is used to navigate all over the application.
   - This application is fully screen-responsive to all the devices.
-
-## Getting Started
-
-### Pre-requisites
-
-1. Create a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account and set up a cluster.
-
-### Clone the repository
-
-1. Clone the repository: `git clone https://github.com/Hiteshpan/Lyriks.git`
-
-### Configure the root folder(Lyriks)
-
-1. Set up and configure the environment variables, create a `.env` file in the root folder and add the following environment variables:
-
-```
-PORT_URL= your_port_number
-
-MONGO_URL= your_mongodb_cluster
-
-Jwt_secret= your_jwt_secret(it can be anything you want)
-
-Cloud_Name= your_cloudinary_name(you can get it after registration on cloudinary)
-
-Cloud_Api= your_cloudinary_api
-
-Cloud_Secret= your_cloudinary_secret
-```
-
-### Run the application
-
-1. Navigate to the root folder: `cd ..`.
-2. Run the command `npm run build` this command will automatically install node_modules and build commands in frontend folder as needed.
-3. Run the command `node backend/index.js` to start the application.
-4. Lyriks will be running at `http://localhost:5000`.
-5. Copy this url and paste it to your browser and your application will run properly.
-6. To stop the application, press `Ctrl + C` in the terminal.
 
 ## Technologies Used
 
-- Front-End: ReactJS, HTML, Tailwind-CSS, JavaScript, Cloudinary, Jwt-Token 
-- Back-End: Node.js, Express.js, Multer.js
-- Database: MongoDB
-
-## Contributing
-
-We welcome contributions from the community to enhance Lyriks. Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Contact
-
-For any questions or queries, please reach out to me at [hiteshrtk999@gmail.com]
-
-Enjoy using Lyriks and stay productive!
-
+-  NextJs, ReactJs, Redux, TypeScript, Tailwind CSS, Supabase, SwiperJs, Stripe-Gateway.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -138,3 +82,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contributing
+
+We welcome contributions from the community to enhance E-Commerce Website(Amazon). Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contact
+
+For any questions or queries, please reach out to me at [hiteshrtk999@gmail.com]
+
+Enjoy using E-Commerce Website and stay productive!
