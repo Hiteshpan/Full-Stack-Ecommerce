@@ -5,7 +5,7 @@
 Developed a full-stack web application that allows users to search for products they want and buy products. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with Next JS that provides users with a seamless experience across all devices. Using self setuped supabase to manage all products data. Implemented a checkout page to pay and buy the product as user wants using Stripe-Gateway.
 #### Web Link: https://full-stack-ecommerce-peach.vercel.app/
   
-|  Login                              |                                 
+|  Login                              |                                 |
 |-----------------------------------------|-----------------------------------------|
 | ![admin_login](https://github.com/user-attachments/assets/4d371fa2-3b3e-462e-8d16-6111f170e1f8) | 
 
